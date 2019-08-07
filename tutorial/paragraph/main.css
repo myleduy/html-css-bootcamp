@@ -1,0 +1,16 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.paraphstyle {
+    color: green;
+    font-size: 100px;
+    margin-left: 200px;
+}
+
+/*comment*/
+img {
+    border: 10px groove black;
+}
