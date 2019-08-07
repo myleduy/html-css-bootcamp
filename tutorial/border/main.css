@@ -1,0 +1,23 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 100%;
+    background-image: url("../image/cute_puppy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    border: 5px dashed green;
+}
+.dog1 {
+    border: 5px solid red;
+    border-radius: 50%;
+}
+.dog2 {
+    border: 5px groove orange;
+}
+.dog3 {
+    border: 5px double cyan;
+}
