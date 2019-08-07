@@ -6,10 +6,14 @@ div {
     background-image: url("../image/cute_puppy.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    display: inline-block;
 }
 
 img {
     border: 5px dashed green;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
 }
 .dog1 {
     border: 5px solid red;
