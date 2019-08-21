@@ -1,0 +1,52 @@
+div {
+    /*height: 300px;*/
+    width: 300px;
+    border: 5px solid cyan;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+}
+
+div:hover {
+    border-color: red;
+}
+
+a {
+    display: block;
+    margin-bottom: 30px;
+    color: green;
+}
+
+a:nth-child(1) {
+    color: yellow;
+}
+
+/*a:link {*/
+/*    color: green;*/
+/*}*/
+/*a:visited {*/
+/*    color: blue;*/
+/*}*/
+a:hover {
+    color: red;
+    font-size: 40px;
+    cursor: pointer;
+}
+a:active {
+    color: orange;
+}
+table,tr,td {
+    width: 100%;
+    border: 1px dashed black;
+}
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+/*p {*/
+/*    color: purple;*/
+/*    font-size: 60px;*/
+/*}*/
+#black_box {
+    color: purple;
+    font-size: 100px;
+}

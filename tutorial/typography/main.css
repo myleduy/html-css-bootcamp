@@ -1,0 +1,15 @@
+p {
+    color: darkslategray;
+    font-size: 20px;
+    text-align: center;
+}
+
+p::first-line {
+    font-style: italic;
+}
+
+p::first-letter {
+    font-size: 40px;
+    color: orange;
+    font-family: cursive;
+}

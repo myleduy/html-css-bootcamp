@@ -1,0 +1,35 @@
+* {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+div {
+    border: 10px ridge orange;
+    border-radius: 50%;
+    width: 300px;
+    height: 200px;
+    background-image: url("../image/cute_puppy.jpg");
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+p::first-letter {
+    font-family: cursive;
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+}
+
+html {
+    background-color: lightcyan;
+}
+
+body {
+    border: black 3px solid;
+    background-color: beige;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+
+}
