@@ -1,6 +1,7 @@
 html {
     background-color: #868686;
     text-align: center;
+    align-items: center;
 }
 
 /*font-family*/
@@ -49,7 +50,8 @@ html {
     color: white;
     font-size: 2rem;
     font-weight: 900;
-    color: rgba(190,110,20,0.6);
+    color: rgba(190,110,20,0.8);
+    text-decoration: underline red wavy;
 }
 
 @font-face {
@@ -68,8 +70,11 @@ html {
     font-family: 'Indie Flower', cursive;
     font-size: 5vw;
     color: rgba(0,0,255,0.7);
-    line-height: 0;
+    line-height: 1;
     text-shadow: 1px 1px 2px green;
+    text-indent: 1rem;
+    max-width: 20rem;
+    margin: 0 auto;
 }
 
 .google_font::first-letter {
