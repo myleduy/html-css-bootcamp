@@ -1,0 +1,60 @@
+.page_header {
+    width: 50%;
+    height: 10%;
+    border: 1px red solid;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 0px 3px 0px;
+}
+
+.page_nav {
+    width: 50%;
+    height: 10%;
+    border: 1px orange solid;
+    padding: 1px;
+    text-align: center;
+    margin: 0px 0px 3px 0px;
+}
+
+.side_1 {
+    display: inline-block;
+    border: 1px darkgreen solid;
+    width: 15%;
+    height: 40%;
+    margin: 0 auto;
+}
+
+.sec_1 {
+    width: 35%;
+    height: 40%;
+    border: 1px blue solid;
+    text-align: center;
+    display: inline-block;
+}
+
+section h3  {
+    color: darkgreen;
+}
+
+article {
+    border: 1px black dotted;
+    margin: 1px;
+}
+
+footer {
+    width: 50%;
+    border: 1px purple solid;
+}
+
+.box {
+    border: 1px hotpink dashed;
+    width: 150px;
+    height: 130px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 3px;
+    text-align: center;
+    background-color: lightgray;
+}
+

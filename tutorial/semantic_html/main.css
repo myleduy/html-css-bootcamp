@@ -49,3 +49,13 @@ footer {
     font-style: normal;
     color: green;
 }
+
+section {
+    display: block;
+}
+
+figcaption {
+    color: rgba(240,50,50,0.6);
+    font-family: cursive;
+    font-size: 0.75rem;
+}
